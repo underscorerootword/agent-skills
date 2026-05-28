@@ -91,3 +91,10 @@ tags: [<tag 1, tag 2>]
 ## Project hygiene
 1. Update `<project>-INDEX.md` with the newly created markdown files for that project. Remove `NEW:` and `UPDATED:` prefixes from any index entry that was not created or modified in this session.
 2. If an existing file covers the same theme or cites the same sources, link to it, either via the `related:` property in the frontmatter or inline under a thematically similar sub-heading
+
+## Markdown rules (SilverBullet)
+- **Internal links**: use `[[page/path]]` wikilink syntax. Link to a header with `[[page#Header]]`. Add display text with `[[page|display text]]`
+- **External links**: use standard `[title](https://url.com)` syntax
+- **Inline tags**: `#tag` can be used in the body of a page in addition to frontmatter tags
+- **Highlighting**: `==text==` renders as highlighted
+- **Admonitions**: fenced blocks with a type keyword (e.g. `note`, `warning`) render as styled callout boxes — use sparingly for genuinely important content
