@@ -1,2 +1,2 @@
-# nanoclaw-skills
-List of maintained skills for my NanoClaw instance
+# Agent skills
+List of skills I have created
